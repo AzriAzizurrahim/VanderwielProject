@@ -1,0 +1,36 @@
+{
+  "version": 2,
+  "dgSpecHash": "mrfRjgmO565olPqx5O1R5sOfpu21AMtGI/aVSMgPC390ZTqeBWPSB4DZUuOkrtmXiMuDs1k0bOIM410nSvxZ4A==",
+  "success": true,
+  "projectFilePath": "D:\\Programming Learning\\Vandewiele projects\\VandewieleAPI\\VandewieleAPI\\VandewieleAPI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\PC\\.nuget\\packages\\microsoft.extensions.apidescription.server\\7.0.4\\microsoft.extensions.apidescription.server.7.0.4.nupkg.sha512",
+    "C:\\Users\\PC\\.nuget\\packages\\microsoft.openapi\\1.6.3\\microsoft.openapi.1.6.3.nupkg.sha512",
+    "C:\\Users\\PC\\.nuget\\packages\\swashbuckle.aspnetcore\\6.5.0\\swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
+    "C:\\Users\\PC\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
+    "C:\\Users\\PC\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
+    "C:\\Users\\PC\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.5.0\\swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Swashbuckle.AspNetCore 6.5.0 depends on Microsoft.Extensions.ApiDescription.Server (>= 6.0.5) but Microsoft.Extensions.ApiDescription.Server 6.0.5 was not found. An approximate best match of Microsoft.Extensions.ApiDescription.Server 7.0.4 was resolved.",
+      "libraryId": "Microsoft.Extensions.ApiDescription.Server",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Swashbuckle.AspNetCore.Swagger 6.5.0 depends on Microsoft.OpenApi (>= 1.2.3) but Microsoft.OpenApi 1.2.3 was not found. An approximate best match of Microsoft.OpenApi 1.6.3 was resolved.",
+      "libraryId": "Microsoft.OpenApi",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
+}
